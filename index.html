@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input id="random_number" name="random_number" type="number" >
+ <button onclick ="numberType()" >Submit</button>
+</body>
+<script>
+
+  function numberType() {
+
+   let num = document.querySelector('#random_number').value;
+
+   if  (num % 2)  {
+     alert('odd number');
+   } else {
+     alert('even number');
+   }
+  }
+ 
+   </script>
+</html>

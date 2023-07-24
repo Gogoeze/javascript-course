@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>9a.html</title>
+  </head>
+
+  <body>
+    <button onclick = " 
+      document.querySelector('.js-9a').innerHTML = 'You clicked on 9a';
+      ">9a</button>
+      <p class ="js-9a"></p>
+
+    <button class="button-9b">9b</button>
+
+    <button onclick="
+    document.querySelector('.js-moves-choosen').innerHTML = 'You chose:heads';">heads</button>
+
+    <button onclick = "
+    document.querySelector('.js-moves-choosen').innerHTML = 'You chose:tails';
+    ">tails</button>
+    <p class="js-moves-choosen"></p>
+
+
+    <script>
+    console.log(document.querySelector('button'));
+
+    document.querySelector('.button-9b')
+     .innerHTML = '9b done!'; 
+    </script>
+ </body>
+</html>

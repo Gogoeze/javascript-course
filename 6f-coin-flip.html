@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>6a-rerun.html</title>
+  </head>
+
+  <body>
+    <script>
+     
+      const randomNumber = Math.random();
+      let result = '';
+  
+      
+      if (randomNumber < 0.5) {
+        result = 'heads';
+      } else {
+        result = 'tails';
+      }
+       console.log (result);
+
+       const guess = 'heads';
+        
+      if (guess === result) {
+        console.log('You win!');
+      } else if (guess !== result) {
+        console.log('You lose');
+      }
+      
+     /*
+      // using ternary operators to write the code above
+      const randomNumber = Math.random();
+      const result = randomNumber < 0.5 ? 'heads : tails';
+
+       const guess = 'heads';
+       console.log(guess === result ? 'You win!' : 'You lose!');
+       */
+    </script>
+  </body>
+
+</html>
